@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Navigation menu (navbar) with flexbox</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+      <!-- Component -->
+    <div class="navbar-component">
+      <!-- Class `area` is a container -->
+      <div class="navbar area">
+        <!-- Logo -->
+        <a href="#" class="brand">Brand</a>
+        <!-- List of links -->
+        <nav role="navigation" id="navigation" class="list">
+          <a href="#" class="item -link">Home</a>
+          <a href="#" class="item -link">Articles</a>
+          <a href="#" class="item -link">Projects</a>
+          <a href="#" class="item -link">Resources</a>
+          <a href="#" class="item -link">About me</a>
+          <span class="item"><i class="fa fa-search"></i></span>
+        </nav>
+        <!-- Button to toggle the display menu  -->
+        <button data-collapse data-target="#navigation" class="toggle">
+          <!-- Hamburger icon -->
+          <span class="icon"></span>
+        </button>
+      </div>
+    </div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
